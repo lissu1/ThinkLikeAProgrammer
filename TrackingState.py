@@ -1,7 +1,9 @@
 __author__ = 'lissu1'
 
 from string import ascii_lowercase, ascii_uppercase
+#from enum import Enum
 
+#Enum("mode", "UPPER LOWER PUNCTUATION")
 my_punctuation = '!?,. ;"\''
 input_string = '18,12312,171,763,98423,1208,216,11,500,18,241,0,32,20620,27,10'
 
