@@ -19,8 +19,8 @@ for i in i_range:
         spaces = half_i_range - i - 1
         print(' ' * spaces, '#' * hashtags)
     else:
-        hashtags = len(i_range)-2 * i
-        print(' ' * i, '#' * hashtags)
+        hashtags = len(i_range)
+        print(' ' * (i - (half_i_range - 1)), '#' * hashtags)
 
 print()
 print('diamond bottom')
