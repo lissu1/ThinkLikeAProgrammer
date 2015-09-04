@@ -1,7 +1,7 @@
 __author__ = 'lissu1'
 
 
-i_range = range(8)
+i_range = range(10)
 
 print('diamond')
    ##
@@ -19,8 +19,9 @@ for i in i_range:
         spaces = half_i_range - i - 1
         print(' ' * spaces, '#' * hashtags)
     else:
-        hashtags = len(i_range)
+        hashtags -= 2
         print(' ' * (i - (half_i_range - 1)), '#' * hashtags)
+
 
 print()
 print('diamond bottom')
